@@ -12,6 +12,8 @@ import java.util.Map;
 @Service
 public class UserService {
 
+    @Value("${spring.profiles.active}")
+    private String activeProfile;
 
     private final Map<Long, User> users = new HashMap<>();
 
@@ -23,6 +25,7 @@ public class UserService {
     }
 
     public Flux<User> findUsers() {
+        System.out.println("FOO " + activeProfile);
         return Flux.fromIterable(users.values());
     }
 
