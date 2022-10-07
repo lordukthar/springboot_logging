@@ -15,11 +15,6 @@ public class UserService {
 
     private final Map<Long, User> users = new HashMap<>();
 
-    @Autowired
-    public UserService(@Value("${spring.profiles.active}") String activeProfile) {
-        System.out.println("FOO" + activeProfile);
-    }
-
     public UserService() {
         users.put(1L, new User("Wim"));
         users.put(2L, new User("Simon"));
