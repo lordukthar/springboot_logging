@@ -24,3 +24,5 @@ http://localhost:8080/aja/users
 
 #https://youtrack.jetbrains.com/issue/IDEA-234930/Spring-Webflux-support-references-to-request-parameters-in-the-RouterFunction-predicates
 #https://jmeter.apache.org/usermanual/component_reference.html#HTTP_Header_Manager
+
+#https://www.drawasaurus.org/
