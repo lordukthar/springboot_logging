@@ -22,3 +22,5 @@ Can bee seen with curl/postman when calling:
 
 http://localhost:8080/aja/users
 
+#https://youtrack.jetbrains.com/issue/IDEA-234930/Spring-Webflux-support-references-to-request-parameters-in-the-RouterFunction-predicates
+#https://jmeter.apache.org/usermanual/component_reference.html#HTTP_Header_Manager
